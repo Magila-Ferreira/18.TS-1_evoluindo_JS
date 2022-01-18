@@ -5,7 +5,6 @@ import { NegociacaoController } from "./controllers/negociacao-controller.js";
 
 /* INSTANCIANDO A CLASSE_NEGOCIAÇÃO */
 const negociacao = new Negociacao(new Date(), 10, 100);
-console.log(negociacao.volume);
 
 /* INSTANCIANDO A CLASSE_NEGOCIAÇÃO-CONTROLLER */
 const controller = new NegociacaoController();
