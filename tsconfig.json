@@ -1,8 +1,10 @@
+// AULA 2
 {
     "compilerOptions": {
         "outDir": "dist/js",
         "target": "ES6",
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "noImplicitAny": true
     },
     "include": [
         "app/**/*"
